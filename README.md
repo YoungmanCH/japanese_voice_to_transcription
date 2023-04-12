@@ -1,16 +1,13 @@
-# google_calendar_app
+# japanese_voice_to_transcription
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The program detects Japanese speech using stt, the official Flutter support, and outputs the detected speech as text. The program extracts only nouns, a type of part of speech, from the output string.
 
-A few resources to get you started if this is your first Flutter project:
+It also uses a library called Mecab for morphological analysis.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To install Mecab, please refer to the following repository.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://github.com/ken1flan/mecab_dart_sample　
